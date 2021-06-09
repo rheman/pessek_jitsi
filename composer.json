@@ -1,0 +1,23 @@
+{
+	"name": "pessek/pessek_jitsi",
+	"description": "Plugin which gives you the extensive functionality to manage Jitsi videoconferencing. Allows user to Join meetings directly from Browser and phone",
+	"type": "elgg-plugin",
+	"keywords": ["elgg", "plugin", "events"],
+	"license": "proprietary",
+    	"authors": [
+        	{
+			"name": "Hermand PESSEK",
+			"email": "rhemandaddy@gmail.com"
+        	}
+    	],
+	"require": {
+		"php": ">=7.1",
+		"composer/installers": "^1.0.8"
+	},
+	"extra": {
+		"installer-name": "pessek_jitsi"
+	},
+	"conflict": {
+		"elgg/elgg": "<3.3"
+	}
+}
